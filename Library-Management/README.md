@@ -16,9 +16,11 @@ A React application based on the supplied library project.
 1. Install Node.js if it is not already installed.
 2. Extract this ZIP and open the `901020666` folder in VS Code.
 3. Open Terminal > New Terminal.
-4. Run `npm install`
-5. Run `npm run dev`
-6. Open the Local URL printed in the terminal.
+4. run 'dir'
+5. run 'cd library-management'
+6. Run `npm install`
+7. Run `npm run dev`
+8. Open the Local URL printed in the terminal.
 
 ## First-time setup and demo login
 1. Start the app and open **Login**.
