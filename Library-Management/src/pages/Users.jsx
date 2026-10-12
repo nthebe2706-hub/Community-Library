@@ -57,7 +57,7 @@ export default function Users({ currentUser, onLogin }) {
         <div className="panel-heading"><div><h3>{editingId !== null ? "Update user" : "Register a user"}</h3><p>Membership details and access role</p></div><span className="panel-number">03</span></div>
         <form className="form-stack" onSubmit={submitUser}>
           <label>Full name<input name="name" value={form.name} onChange={changeField} placeholder="Enter full name" required /></label>
-          <label>Membership ID<input name="membershipId" value={form.membershipId} onChange={changeField} placeholder="e.g. LIB-001" required /></label>
+          <label>Membership ID<input name="membershipId" value={form.membershipId} onChange={changeField} placeholder="e.g.901020666" required /></label>
           <label>Password<input name="password" type="password" value={form.password} onChange={changeField} placeholder="Create a password" minLength="4" required /></label>
           <label>Role<select name="role" value={isFirstSetup ? "Admin" : form.role} onChange={changeField} disabled={isFirstSetup || editingId === currentUser?.id}><option>Member</option><option>Librarian</option><option>Admin</option></select>{isFirstSetup && <small className="sub-cell">The first account is assigned the Admin role.</small>}{editingId === currentUser?.id && <small className="sub-cell">You cannot change your own administrator role.</small>}</label>
           {message && <p className="form-message" role="status">{message}</p>}
