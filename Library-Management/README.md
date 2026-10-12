@@ -1,6 +1,6 @@
 # Community Library Management System
 
-A React application based on the supplied library project and BIWA2110 Assignment 2 brief.
+A React application based on the supplied library project.
 
 ## Features
 - Dashboard showing book count, total copies, low-stock titles and registered users
@@ -14,7 +14,7 @@ A React application based on the supplied library project and BIWA2110 Assignmen
 
 ## Run in VS Code
 1. Install Node.js if it is not already installed.
-2. Extract this ZIP and open the `Library-Management-React` folder in VS Code.
+2. Extract this ZIP and open the `901020666` folder in VS Code.
 3. Open Terminal > New Terminal.
 4. Run `npm install`
 5. Run `npm run dev`
